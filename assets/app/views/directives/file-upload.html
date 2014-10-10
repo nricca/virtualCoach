@@ -1,0 +1,11 @@
+<span class="file-upload btn-file text-center">
+
+    <div class="text-info"><strong>Import a replay from my computer</strong></div>
+
+    <div class="text-info" ng-bind="fileName"></div>
+
+    <progressbar id="progress" value="progress" type="info" ng-show="inProgress">{{progress}}%</progressbar>
+
+    <input id="uploadInput" type="file" ng-file-select="onFileSelect($files)">
+
+</span>

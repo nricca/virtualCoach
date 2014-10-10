@@ -1,0 +1,34 @@
+.file-upload {
+
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  border: 2px dashed @silver;
+  border-radius: 6px;
+  padding: 20px 40px;
+  font-size: 14px;
+  position: relative;
+
+  &:hover {
+    background-color: lighten(@silver, 5%);
+  }
+
+  div {
+    margin-bottom: 8px;
+  }
+
+  input[type='file'] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+    width: 100%;
+  }
+}

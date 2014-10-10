@@ -1,0 +1,30 @@
+{
+  "name": "virtualCoach",
+  "version": "0.0.0",
+  "authors": [
+    "Ricca Nicola <ricca.nicola@gmail.com>"
+  ],
+  "description": "SC2 Virtual Coach",
+  "keywords": [
+    "sc2",
+    "virtual",
+    "coach",
+    "makoz",
+    "makozfriends"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.25",
+    "bootstrap": "~3.2.0",
+    "angular-route": "~1.2.26",
+    "angular-bootstrap": "~0.11.2",
+    "ng-file-upload": "~1.6.12"
+  }
+}
