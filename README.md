@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 virtualCoach
 ============
 =======
-# virtualCoach
 
 Une fois le projet cloné :
 
@@ -16,13 +14,6 @@ Une fois le projet cloné :
 Lancer dans un terminal sails
 ###### sails lift
 
-Lancer dans un autre terminal sails
-
-###### grunt
-
 ### Développement
 
-Tout ce qui est dans le dosser app conçerne angular, alors que ce qui est dans api sails.
-
-
->>>>>>> First Commit
+Tout ce qui conçerne angular se trouve dans le dossier assets/app, alors que ce qui est dans api sails.
